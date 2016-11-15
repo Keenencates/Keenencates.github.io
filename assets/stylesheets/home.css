@@ -42,11 +42,7 @@ h3 {
 }
 body {
 	font: 300 16px/22px "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background: #233141; /* Old browsers */
-	background: -moz-linear-gradient(45deg,  #233141 0%, #233141 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(45deg,  #233141 0%,#233141 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(45deg,  #233141 0%,#233141 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#233141', endColorstr='#233141',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background: #233141;
 	margin: auto;
 	display:block;
 	text-align: center;
@@ -66,15 +62,10 @@ cite, em {
     transition: 0.3s;
 	border-radius: 5px; /* 5px rounded corners */
 	
-		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
 	background: #ffffff; /* Old browsers */
-	background: -moz-linear-gradient(45deg,  #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(45deg,  #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(45deg,  #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	
-	min-width: 40%;
-	max-width: 40%;
+	min-width: 80%;
+	max-width: 80%;
 	padding: 10px;
 	margin:10px;
 	
@@ -85,14 +76,4 @@ cite, em {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	vertical-align: top;
-}
-
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-/* Add some padding inside the card container */
-.container {
-    padding: 2px 16px;
 }
