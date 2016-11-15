@@ -1,19 +1,4 @@
 /*
-Clearfix
-*/
-.group:before, .group:after{
-	content: "";
-	display: table;
-}
-.group:after{
-	clear:both;
-}
-.group{
-	clear:both;
-	*zoom: 1;
-}
-
-/*
 Primary Header
 */
 .logo {
@@ -34,51 +19,6 @@ Primary Footer
 	color: #fff
 }
 
-/*
-Grid
-*/
-.col-1-3 {
-	width: 33.33%;
-}
-.col-2-3{
-	width: 66.66%;
-}
-.col-1-2{
-	width: 50%;
-}
-.col-1-5{
-	width: 20%;
-}
-.col-3-5{
-	width: 55%;
-}
-.col-1-5, .col-3-5{
-	padding-top: 30px;
-	text-align: center;
-}
-.col-1-3, .col-2-3, .col-1-2, .col-1-5, .col-3-5{
-	display: inline-block;
-	vertical-align: top;
-	min-width: 350px;
-}
-.grid, .col-1-3, .col-2-3, .col-1-2, .col-1-5, .col-3-5{
-	padding-left:15px;
-	padding-right:15px;
-	min-height: 400px;
-}
-.container, .grid {
-  margin: 0 auto;
-  min-width: 800px;
-}
-.container {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-*, *:before, *:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
 /*
 typography
 */
@@ -112,49 +52,36 @@ strong {
 cite, em {
   font-style: italic;
 }
-.row,
-.row-alt{
-	min-width: 960px;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
-	background: #ffffff; /* Old browsers */
-	background: -moz-linear-gradient(45deg,  #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(45deg,  #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(45deg,  #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
-.row {
-	min-width: 800px;
-	box-shadow: 0px 0px 10px 0px #000;
-	padding-bottom: 10px;
-}
-.row-alt {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+
+.card, .card-left, .card-right {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	border-radius: 5px; /* 5px rounded corners */
+	
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(45deg,  #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(45deg,  #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(45deg,  #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	
-	min-width: 800px;
-	max-width: 60%;
-	box-shadow: 0px 0px 10px 0px #000;
-	padding-bottom: 10px;
-	margin:auto;
- }
-.scroll{
-	border-style: solid;
-	border-width: thin;
-	overflow: auto;
-	min-height: 200px;
-	max-height:550px;
+	min-width: 30%;
+	max-width: 45%;
+	padding: 10px;
+	margin:10px;
+	
+	float:left;
+	overflow:hidden;
 }
-.list-row {
-	border-bottom-style: solid;
-	border-bottom-width: thin;
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-.tracks{
-	list-style-type:none;
-	text-align:left;
-	font-size:11;
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
 }
 
