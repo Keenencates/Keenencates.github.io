@@ -1,3 +1,6 @@
 # Keenencates.github.io
-Web pages
-Html code for my first website.
+----------------------
+Welcome to my personal blog!
+
+Recently added:
+Card layout
