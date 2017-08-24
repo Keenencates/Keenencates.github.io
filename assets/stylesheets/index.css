@@ -9,7 +9,8 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-h1, h2{
+h1, h2, h3, h4{
+    font-family: 'Corben', Georgia, Times, serif;
 }
 h1 {
   font-size: 36px;
@@ -23,9 +24,11 @@ h2 {
 h3{
   font-size: 16px;
 }
+p, div{
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
 
 body {
-	font: 300 16px/22px Helvetica Neue, sans-serif;
 	/*background: #233141;*/
 	background-image: url("green-fibers.png");
 	margin: auto;
@@ -47,7 +50,7 @@ cite, em {
     transition: 0.3s;
     border-radius: 5px; /* 5px rounded corners */
     background: #ffffff; /* Old browsers */
-    background-image: url("cheap_diagonal_fabric.png");
+    background-image: url("crossword.png");
     width: 350px;
     min-height: 250px;
     padding: 10px;
