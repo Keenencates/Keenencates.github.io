@@ -27,7 +27,7 @@ h3{
 body {
 	font: 300 16px/22px Helvetica Neue, sans-serif;
 	/*background: #233141;*/
-	background: url(/img/green_fibers.png) repeat 0 0;
+	background-image: url("green-fibers.png");
 	margin: auto;
 	display:block;
 	text-align: center;
@@ -45,21 +45,17 @@ cite, em {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-	border-radius: 5px; /* 5px rounded corners */
-	
-	background: #ffffff; /* Old browsers */
-	
-	width: 350px;
-	min-height: 250px;
-	
-	padding: 10px;
-	margin:10px;
-	
-	display: inline-block;
-	
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	vertical-align: top;
+    border-radius: 5px; /* 5px rounded corners */
+    background: #ffffff; /* Old browsers */
+    background-image: url("cheap_diagonal_fabric.png");
+    width: 350px;
+    min-height: 250px;
+    padding: 10px;
+    margin:10px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: top;
 }
