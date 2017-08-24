@@ -26,7 +26,8 @@ h3{
 
 body {
 	font: 300 16px/22px Helvetica Neue, sans-serif;
-	background: #233141;
+	/*background: #233141;*/
+	background: url(/img/green_fibers.png) repeat 0 0;
 	margin: auto;
 	display:block;
 	text-align: center;
