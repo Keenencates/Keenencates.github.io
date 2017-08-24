@@ -1,8 +1,5 @@
-/*
-Primary Header
-*/
-.logo {
-	border-top: 4px solid #3A90DB;
+.logo{
+        border-top: 4px solid #3A90DB;
 	padding: 40px 0 22px 0;
 	font-size: 48px;
 	line-height: 44px;
@@ -12,21 +9,7 @@ Primary Header
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
-/*
-Primary Footer
-*/
-.primary-footer {
-	padding-bottom: 44px;
-	padding-top: 44px;
-	font-size: 12px;
-	color: #fff
-}
-
-/*
-typography
-*/
-h1, h2, h3, h4 {
+h1, h2{
 }
 h1 {
   font-size: 36px;
@@ -37,11 +20,12 @@ h1 {
 h2 {
   font-size: 24px;
 }
-h3 {
-  font-size: 24px;
+h3{
+  font-size: 16px;
 }
+
 body {
-	font: 300 16px/22px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 300 16px/22px Helvetica Neue, sans-serif;
 	background: #233141;
 	margin: auto;
 	display:block;
@@ -64,8 +48,9 @@ cite, em {
 	
 	background: #ffffff; /* Old browsers */
 	
-	min-width: 80%;
-	max-width: 80%;
+	width: 350px;
+	min-height: 250px;
+	
 	padding: 10px;
 	margin:10px;
 	
