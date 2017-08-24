@@ -48,8 +48,8 @@ cite, em {
     border-radius: 5px; /* 5px rounded corners */
     background: #ffffff; /* Old browsers */
     background-image: url("cheap_diagonal_fabric.png");
-    width: 350px;
-    min-height: 250px;
+    width: 325px;
+    min-height: 200px;
     padding: 10px;
     margin:10px;
     display: inline-block;
