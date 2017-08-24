@@ -31,6 +31,9 @@ h1 {
 h2 {
   font-size: 24px;
 }
+h3{
+  font-size: 16px;
+}
 
 body {
 	font: 300 16px/22px Helvetica, sans-serif;
@@ -56,9 +59,10 @@ cite, em {
 	
 	background: #ffffff; /* Old browsers */
 	
-	min-width: 60%;
-	max-width: 60%;
-	padding: 10px;
+	width: 350px;
+	min-height: 250px;
+	
+	padding-: 10px;
 	margin:10px;
 	
 	display: inline-block;
@@ -76,20 +80,17 @@ cite, em {
 <html>
 
 <body>
-<div class = "card">
-<h2><strong>About Me</strong></h2>
-<p>Hi, my name is Keenen! I do programming stuff. This is my first website and a learning experience for me.
-I have used programming languages such as C/C++, Java, and Python.
-I attend the University of Evansville and I'm currently a computer science/mathermatics double major.
-Feel free to contact me at kc235@evansville.edu or (812) 459-5449</p>
-<a href="assets/resume.pdf">My Resume</a>
-</div>
 
 <div class = "card">
-<h2><strong>My Projects</strong></h2>
-<div class="github-widget" data-username="Keenencates", style = "margin:auto"></div>
+<h2><strong>About Me</strong></h2>
+<div class="github-widget" data-username="Keenencates", style = "margin-bottom:30px"></div>
 <script async src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
 </div>
 </body>
+
+<a class = "card" href="hutter.html" style="text-decoration: none !important; color:inherit;">
+<h2><strong>Hutter Prize Project</strong></h2>
+<h3>Sponsor/Advisor: Dr. Robert Morse</h3>
+</a>
 
 </html>
