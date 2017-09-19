@@ -14,7 +14,7 @@
 
 <body>
 
-<div class = "card">
+<div class = "card" style = "height:400px">
 <h2><strong>Hutter Prize Project</strong></h2>
 <h3>Engineer: <a href="index.html" style="text-decoration:none">Keenen Cates</a></h3>
 <h3>Sponsor/Advisor: Dr. Robert Morse</h3>
@@ -31,7 +31,7 @@
       if ($line != "" && $line[0] != '#')
       {
          $parts = explode ("|", $line);
-         echo "<div class = \"card\">";
+         echo "<div class = \"card\" style = \"height:250px\">";
          echo "<h2><strong>$parts[0]</strong></h2>";
          echo "<h3>$parts[1] - $parts[2] hrs</h3>";
          echo "<p>$parts[3]</p></div>";

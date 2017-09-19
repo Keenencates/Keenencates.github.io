@@ -1,4 +1,10 @@
 # Format of file line (# are comments)
 # Title|Date|Hours|Description
-Created Webpage|8/23/2017|4.0|Formatted personal portfolio website to host final project. Updated my card layout code and added modified php example code to use cards.
-Webpage Adjustments|8/23/2017|1.0|Reorganized layout to better suit project. Added textures and other visual modifications.
+Created Webpage|08/23/2017|4.0|Formatted personal portfolio website to host final project. Updated my card layout code and added modified php example code to use cards.
+Webpage Adjustments|08/23/2017|1.0|Reorganized layout to better suit project. Added textures and other visual modifications.
+Met with Dr. Morse|08/24/2017|0.1|Spoke with Dr. Morse about direction of project. Tenatively scheduled recurrent meetings.
+Met with Dr. Morse|08/31/2017|0.5|Discussed ideas for project, by next week want to have some tools developed for exploring the data.
+Data Exploration|08/31/2017|3.5|Began exploring the hutter prize data. Watched a few videos from Google Developers about compression in general, and started to explore the structure of the data. I first started with the distribution of characters. <a href='assets/notebooks/Hutter.html'>Here is my work.</a>
+Research Papers|09/05/2017|1.0|Found a multitude of research papers discussing neural network applications to compression. Began reading through papers.
+Met with Dr. Morse|09/14/2017|1.0|Discussed proof-of-concept hashing approach.
+Problem Statement & Background|09/17/2017|1.0|Created paper layout and began writing cotent.
